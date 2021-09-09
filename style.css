@@ -91,7 +91,7 @@ a{
     font-size: 30px;
 }
 
-@media (max-width: 750px){
+@media (max-width: 860px){
     body{
         padding: 6em 2em;
         font-size: 12px;
