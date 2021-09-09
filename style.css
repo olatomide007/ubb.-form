@@ -122,3 +122,10 @@ a{
     
 
 }
+
+@media (max-width: 360px){
+    .blue-container{
+        height: 494px;
+        
+    }
+}
