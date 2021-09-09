@@ -77,10 +77,10 @@ a{
 
 .blue-container{
     background-color: #4585f7;
-    padding: 8px;
+    padding: 8px 8px 400px 8px;
     width: 4%;
     float: right;
-    height: 530px;
+    
     border-radius: 0 5px 5px 0;
     padding-top: 100px;
 }
@@ -110,8 +110,8 @@ a{
     }
 
     .blue-container{
-        height: 480px;
-        
+        padding-bottom: 365px;
+        padding-right: 12px;
     }
 
     .fas{
@@ -123,9 +123,10 @@ a{
 
 }
 
-@media (max-width: 360px){
+@media (max-width: 300px){
     .blue-container{
-        height: 494px;
         
+        padding-bottom: 405px;
+
     }
 }
