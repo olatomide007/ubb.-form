@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #96e9eb;
+    padding: 4em 18em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.white-container{
+    background-color: #ffffff;
+    padding: 80px 100px 80px 80px;
+    border-radius: 5px;
+
+}
+
+.title{
+    color: #4585f7;
+    padding: 10px 0 50px;
+    font-size: 26px;
+}
+
+.user{
+    color: #555555;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    letter-spacing: 3px;
+}
+
+.input{
+    margin: 10px 0 20px;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 5px;
+}
+
+.no-btn{
+    display: flex;
+    justify-content: space-between;
+}
+/** do not know how to style the checkbox
+
+.check{
+
+}
+**/
+.remember{
+    color:#555555;
+    opacity: 0.8;
+}
+
+a{
+    color: #4585f7;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #4585f7;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.blue-container{
+    background-color: #4585f7;
+    padding: 8px;
+    width: 4%;
+    float: right;
+    height: 530px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 100px;
+}
+
+.fas{
+    color: #e6e6e6;
+    opacity: 0.3;
+    font-size: 30px;
+}
+
+@media (max-width: 750px){
+    body{
+        padding: 6em 2em;
+        font-size: 12px;
+    }
+
+    .white-container{
+        padding: 60px 50px 60px 30px;
+    }
+
+    .title{
+        font-size: 22px;
+    }
+
+    .user{
+        font-size: 14px; 
+    }
+
+    .blue-container{
+        height: 480px;
+        
+    }
+
+    .fas{
+        font-size: 8px
+    }
+    
+    
+    
+
+}
