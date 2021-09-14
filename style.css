@@ -6,7 +6,7 @@
 
 body{
     background-color: #96e9eb;
-    padding: 4em 18em;
+    padding: 6em 18em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -91,10 +91,33 @@ a{
     font-size: 30px;
 }
 
-@media (max-width: 860px){
+@media(max-width: 1010px){
     body{
-        padding: 6em 2em;
-        font-size: 12px;
+        
+        padding: 4em 10em;
+        
+    }
+
+    .fas{
+        
+        
+        font-size: 19px;
+    }
+
+    .blue-container{
+   
+    
+    
+    
+    
+    padding-top: 110px;
+}
+
+}
+@media (max-width: 780px){
+    body{
+        padding: 6em 10em;
+        
     }
 
     .white-container{
@@ -110,12 +133,12 @@ a{
     }
 
     .blue-container{
-        padding-bottom: 365px;
-        padding-right: 12px;
+        padding-bottom: 357px;
+        padding-right: 15px;
     }
 
     .fas{
-        font-size: 8px
+        font-size: 14px
     }
     
     
@@ -123,10 +146,41 @@ a{
 
 }
 
-@media (max-width: 300px){
+@media (max-width: 645px){
+    body{
+        padding: 3em 6em;
+        
+    }
     .blue-container{
         
-        padding-bottom: 405px;
+        padding-bottom: 358px;
 
+    }
+}
+
+@media(max-width: 585px){
+    body{
+        font-size: 11px;
+        padding: 57px 50px;
+        
+    }
+
+    .title{
+        padding: 10px 0 50px;
+        font-size: 20px;
+    }
+
+    .blue-container{
+        
+        padding-bottom: 352px;
+
+    }
+
+    
+}
+
+@media(max-width: 378px){
+    .blue-container{
+        padding-bottom: 32em;
     }
 }
